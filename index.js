@@ -59,7 +59,7 @@ var api = new ParseServer({
   appId: process.env.APP_ID,
   masterKey: process.env.MASTER_KEY,
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
-  databaseURI: databaseUri// (Optional) Only warning even if leave it default
+  databaseURI: // (Optional) Only warning even if leave it default
 });
 
 var app = express();
